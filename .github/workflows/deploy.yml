@@ -30,7 +30,7 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.SSH_PORT }}
-        source: "build/"
+        source: "dist/"
         target: "/var/www/portfolio"
         rm: true  # This will remove old files before copying new ones
 
@@ -43,4 +43,3 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         script: |
           sudo systemctl restart nginx
-          
