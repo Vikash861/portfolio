@@ -43,3 +43,4 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         script: |
           sudo systemctl restart nginx
+          
