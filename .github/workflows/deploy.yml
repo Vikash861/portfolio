@@ -1,4 +1,4 @@
-name: Deploy to EC2
+name: React CI/CD
 
 on:
   push:
@@ -10,6 +10,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "npm"
 
       - name: Install dependencies
         run: npm install
@@ -23,7 +29,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          # port: ${{ secrets.SSH_PORT }}
+          port: ${{ secrets.SSH_PORT }}
           source: "build/"
           target: "/var/www/portfolio"
 
@@ -33,6 +39,6 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          # port: ${{ secrets.SSH_PORT }}
+          port: ${{ secrets.SSH_PORT }}
           script: |
             sudo systemctl restart nginx
