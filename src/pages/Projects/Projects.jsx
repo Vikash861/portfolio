@@ -9,10 +9,10 @@ const projects = [
     description:
       "Farm Organics is a personal web application that enables users to browse and purchase organic products through a clean, responsive interface. It features secure user authentication, seamless payment integration, and a robust admin panel for managing products, categories, orders, coupons, and user accounts",
     src: "farmorganics.jpg",
-    link: "/public/farmorganics.png",
+    link: "farmorganics.png",
     color: "#5196fd",
     githubLink: "https://github.com/Vikash861/core-nutrition",
-    liveLink: "farmorganics.vikashportfolio.in",
+    liveLink: "https://farmorganics.vikashportfolio.in/",
   },
   // {
   //   title: "A sleek portfolio built with React and Tailwind CSS ",
