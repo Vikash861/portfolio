@@ -42,9 +42,9 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "Javascript Full-Stack Developer",
-    "Laravel Backend Developer",
-    "Learning DevOps",
+    "Full-Stack Developer",
+    "Java Backend Developer",
+    "DevOps | DSA | System Design",
   ];
 
   const [code] = useState(`
@@ -53,14 +53,14 @@ export default function Hero() {
         title: 'Full-Stack Developer | Cloud & DevOps',
         skills: [
             'NodeJS', 'Express', 'ReactJs', 'NextJs', 'Redux', 'Zustand',
-            'Restful API', 'GraphQL API', 'Laravel', 'TypeScript', 'Java'
+            'Restful API', 'GraphQL API', 'Spring Boot', 'TypeScript', 'Java'
             'MySQL', 'MongoDB', 'Docker', 'AWS', 'Github Actions', 'CI/CD',
-            'Data Structure', 'Alogorithm', 'OOP', 'Design Patterns',
+            'Data Structure', 'Algorithm', 'OOP', 'Design Patterns',
         ],
         hardWorker: true,
         quickLearner: true,
         problemSolver: true,
-        yearsOfExperience: 2, 
+        yearsOfExperience: 3, 
         hireable: function() {
             return (
                 this.hardWorker &&
@@ -208,7 +208,7 @@ export default function Hero() {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript Enthusiast 🚀 | Problem Solver 🔧 | Crafting
+                  Software Developer 🚀 | Problem Solver 🔧 | Crafting
                   Solution and coding the future 💻✨
                 </p>
               </div>

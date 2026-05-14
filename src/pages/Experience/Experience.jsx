@@ -71,11 +71,11 @@ const ExperienceSection = () => {
     // },
     {
       icon: Code2,
-      title: "Full Stack Developer",
-      company: "NetMaxims Technologies Pvt.Ltd.",
+      title: "Backend Developer",
+      company: "Medicheck Group of Hospitals",
       period: "2025 - Present",
       description:
-        "Worked on various projects, including web applications and APIs, using modern technologies.",
+        "Building and maintaining backend services for Medicine Procurement CRM, including API development, database design, and integration with third-party services like zoho books, tally, and payment gateways.",
     },
   ];
 

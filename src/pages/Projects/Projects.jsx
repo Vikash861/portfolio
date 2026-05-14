@@ -5,45 +5,46 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Farm Oragnics",
+    title: "Madlyme",
     description:
-      "Farm Organics is a personal web application that enables users to browse and purchase organic products through a clean, responsive interface. It features secure user authentication, seamless payment integration, and a robust admin panel for managing products, categories, orders, coupons, and user accounts",
-    src: "farmorganics.jpg",
-    link: "farmorganics.png",
+      "E-commerce platform built with React and Node.js, offering a seamless shopping experience with a sleek design and user-friendly interface.",
+    src: "madlyme.jpg",
+    link: "madlyme.png",
     color: "#5196fd",
-    githubLink: "https://github.com/Vikash861/core-nutrition",
-    liveLink: "https://farmorganics.vikashportfolio.in/",
+    githubLink: "#",
+    liveLink: "https://madlyme-frontend.vercel.app/",
   },
-  // {
-  //   title: "A sleek portfolio built with React and Tailwind CSS ",
-  //   description:
-  //     "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-  //   src: "tree.jpg",
-  //   link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-  //   color: "#8f89ff",
-  //   githubLink: "https://github.com/seraprogrammer/portfolio",
-  //   liveLink: "https://codervai.vercel.app",
-  // },
-  // {
-  //   title: "🚀 CodeWhisperer",
-  //   description:
-  //     "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-  //   src: "water.jpg",
-  //   link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-  //   color: "#fff",
-  //   githubLink: "https://github.com/seraprogrammer/codewhisperer",
-  //   liveLink: "https://codewhisperer.vercel.app/",
-  // },
-  // {
-  //   title: "CodeKori 🔥",
-  //   description:
-  //     "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-  //   src: "house.jpg",
-  //   link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-  //   color: "#ed649e",
-  //   githubLink: "https://github.com/seraprogrammer/CodeKori",
-  //   liveLink: "https://codekori.js.org",
-  // },
+  {
+    title: "Whatsapp Lead Manager",
+    description:
+      "A SaaS Platform built with React and Spring Boot, designed to manage and track leads from WhatsApp conversations, providing an efficient way to convert leads into customers.",
+    src: "whatsapplead.jpg",
+    link: "whatsapplead.png",
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "https://whatsapplead-frontend.vercel.app/",
+  },
+  {
+    title: "Rsv Biotech",
+    description:
+      "Medicine Procurement CRM built with React and Node.js, designed to streamline the procurement process for Hospitals, providing efficient inventory management, accounting, and supplier coordination.",
+    src: "rsvbiotech.jpg",
+    link: "rsvbiotech.png",
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "http://www.rsvbiotech.in/",
+  },
+  {
+    title: "Luneblaze Portal",
+    description:
+      "A comprehensive SAAS platform built with React Node.js, designed to meet the accreditation-related needs of educational institutions, providing tools for documentation, compliance tracking, and reporting.",
+    src: "luneblaze.jpg",
+    link: "luneblaze.png",
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "https://luneblazeportal.com/",
+  },
+
 ];
 
 export default function Projects() {
@@ -210,7 +211,7 @@ function Card({
 
               <div className="flex items-center gap-4">
                 {/* GitHub Link */}
-                <motion.a
+                {/* <motion.a
                   href={githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -237,7 +238,7 @@ function Card({
                   >
                     Code
                   </span>
-                </motion.a>
+                </motion.a> */}
 
                 {/* Live Link */}
                 <motion.a
@@ -271,7 +272,9 @@ function Card({
                   </span>
                 </motion.a>
               </div>
+
             </div>
+            
           </div>
         </div>
       </motion.div>

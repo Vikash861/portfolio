@@ -23,6 +23,7 @@ import {
   SiJest,
   SiWebpack,
   SiRedux,
+  SiSpringboot,
   SiFirebase,
   SiVercel,
   SiVite,
@@ -82,9 +83,10 @@ const SkillsSection = () => {
         //   name: "Express.js",
         //   icon: <FaExpress className="w-4 h-4 text-[#339933]" />,
         // },
+        
         {
-          name: "Laravel",
-          icon: <FaLaravel className="w-4 h-4 text-[#3776AB]" />,
+          name: "Spring Boot",
+          icon: <SiSpringboot className="w-4 h-4 text-[#3776AB]" />,
         },
         {
           name: "MySQL",
@@ -98,10 +100,10 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
+        // {
+        //   name: "GraphQL",
+        //   icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
+        // },
       ],
     },
     {
